@@ -1,0 +1,36 @@
+
+
+<app-customer></app-customer>
+<!-- <p>listview works!</p> -->
+<br><input type="button"  value="get users from server" click="printdata($event)"/>
+<!-- <div class="card my-5">
+<div class="card-body">
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Address</th>
+        </thead>
+        <tbody> -->
+        <table border="1">
+         <tr *nfFor="let user of users">
+            <td>{{user.id}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.address}}</td>
+        
+        </tr>
+    </table>
+<!-- </div>
+</div> -->
+
+<!-- <table boarder="1">
+    <tr *nfFor="let user of users">
+        <td>{{user.id}}</td>
+            <td>{{user.name}}</td>
+                <td>{{user.email}}</td>
+                    <td>{{user.address}}</td>
+
+    </tr>
+</table> -->

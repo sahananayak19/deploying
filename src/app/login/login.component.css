@@ -1,0 +1,11 @@
+login{
+    background-color: burlywood;
+}
+p{
+    font-size:x-large;
+    color: blue;
+    font-style: italic;
+}
+a:link,a:visited{
+    background-color: burlywood;
+}
